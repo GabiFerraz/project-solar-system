@@ -1,3 +1,180 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('./images/background.png');
+  color: white;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+  margin: 15px 0 50px;
+}
+
+h2 {
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 30px;
+  margin: 0 auto;
+  padding: 7px 0;
+  width: 700px;
+}
+
+h3 {
+  bottom: 0;
+  font-size: 13px;
+  position: relative;
+}
+
+h5 {
+  font-size: 15px;
+}
+
+p {
+  font-size: 13px;
+}
+
+.planet {
+  align-items: flex-end;
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+  padding-bottom: 30px;
+}
+
+.planetsPai {
+  align-items: baseline;
+  display: flex;
+  flex-direction: column;
+}
+
+.imgsPlan {
+  cursor: pointer;
+  width: 100%;
+}
+
+.Mercúrio {
+  margin-bottom: 54px;
+  width: 4vw;
+}
+
+.Mercúrio:hover {
+  transform: scale(4);
+  transition: 1s;
+}
+
+.Vênus {
+  margin-bottom: 37px;
+  width: 9vw;
+}
+
+.Vênus:hover {
+  transform: scale(2);
+  transition: 1s;
+}
+
+.Terra {
+  margin-bottom: 32px;
+  width: 10vw;
+}
+
+.Terra:hover {
+  transform: scale(1.9);
+  transition: 1s;
+}
+
+.Marte {
+  margin-bottom: 42px;
+  width: 7vw;
+}
+
+.Marte:hover {
+  transform: scale(2.3);
+  transition: 1s;
+}
+
+.Júpiter {
+  width: 19vw;
+}
+
+.Júpiter:hover {
+  transform: scale(1.2);
+  transition: 1s;
+}
+
+.Saturno {
+  margin-bottom: 10px;
+  width: 17vw;
+}
+
+.Saturno:hover {
+  transform: scale(1.3);
+  transition: 1s;
+}
+
+.Urano {
+  margin-bottom: 24px;
+  width: 13vw;
+}
+
+.Urano:hover {
+  transform: scale(1.4);
+  transition: 1s;
+}
+
+.Netuno {
+  margin-bottom: 24px;
+  width: 13vw;
+}
+
+.Netuno:hover {
+  transform: scale(1.4);
+  transition: 1s;
+}
+
+[ data-testid = 'planet-card' ] {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.paiDoPai {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 40px 0;
+}
+
+.missionsPai {
+  border: 1px solid white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+  padding-bottom: 10px;
+  width: 200px;
+}
+
+.missionsFP {
+  border-bottom: 1px solid white;
+  justify-self: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.missionsF {
+  margin: 3px 0;
+  min-width: 200px;
+  text-align: center;
+}
+
+.footer {
+  padding-bottom: 20px;
   text-align: center;
 }
