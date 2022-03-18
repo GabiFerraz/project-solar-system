@@ -3,7 +3,7 @@ import React from 'react';
 class Footer extends React.Component {
   render() {
     return (
-      <section className='footer'>Desenvolvido Por Gabi Ferraz</section>);
+      <section className="footer">Desenvolvido Por Gabi Ferraz</section>);
   }
 }
 

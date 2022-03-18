@@ -18,7 +18,7 @@ class Missions extends React.Component {
       <>
         <div data-testid="missions" />
         <Title headline="Missões" />
-        <section className='paiDoPai'>{missao}</section>
+        <section className="paiDoPai">{missao}</section>
       </>
     );
   }
